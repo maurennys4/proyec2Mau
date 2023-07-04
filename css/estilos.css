@@ -1,0 +1,165 @@
+
+/*estilos Generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* En mi header tengo img, nav,ul,li*/ 
+header{
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 16px;
+    height: 40px;
+    width: 100%;
+    position:relative;
+    top: 0;
+    left: 0;
+     box-shadow:0 3px 10px-5px ;
+    background-color:darksalmon;
+    box-shadow: rgb(245, 22, 22) 5px 5px 10px inset;
+}
+/*main: section inicio (figure,imagen,article,h1,h2,p)*/
+a{
+text-decoration: none;
+flex: auto;
+margin: 20px;
+
+}
+img{
+    border-radius: 50%;
+}
+#inicio{
+    
+        display: flex;          
+       height: 70%;
+       justify-content: space-between;
+       align-items: center;
+       letter-spacing: normal;
+       padding: 50px;
+       margin: 50px;
+       height: auto;
+       font-size: 18px;
+
+}
+li.menu-item:hover{
+background-color:cyan ;
+  transition:background-color 0.3s ;  
+}
+
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  height;align-items: center;
+   width: auto;
+  padding: auto;
+  margin: 10px;
+  text-align: justify; 
+}
+nav,ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px;
+}
+
+
+h3{
+display: flex;
+justify-content:space-evenly;  
+background-color: darksalmon;
+border-radius: 50px;
+width: 200px;
+transition: 1s;          
+}
+.movimiento:hover{
+background-color: rgb(228, 8, 195);
+transition:background-color 2s;
+
+
+}
+
+
+h4{
+display: flex;
+justify-content: center;
+font-size: 40px;
+}
+ 
+.sobre-mi{
+background-color: darksalmon;
+padding: 70px;
+margin: 70px;
+text-align: justify;
+
+   
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;   
+}
+button{
+    background-color: rgba(227, 146, 59, 0.79);
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+footer{
+   text-align: center; 
+   padding: 20px;
+   background-color: darksalmon;
+   box-shadow: rgb(245, 22, 22) 5px 5px 10px inset;
+
+}
+
+@media(min-width:1024px){
+section#inicio{
+    flex-direction: row;
+    
+} 
+h1,h2{
+font-size:30px;  
+}   
+
+}
+
+   
+
+
+
+
+
+    
+
+
+    
+     
+        
+
+
+
+
+    
+
+
+    
+      
+
+
+   
+    
+
+
+
+
+
+
+
+
+
